@@ -1,0 +1,12 @@
+Game Name: Ninja Treasure Escape
+
+Libraries:
+- Pygame Zero
+- math
+- random
+
+How to run:
+1. Install pygame-zero
+2. Open terminal
+3. Run:
+pgzrun main.py 
