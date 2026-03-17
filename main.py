@@ -12,7 +12,7 @@ class Player:
 
         self.velocity_y = 0
         self.gravity = 0.5
-        self.ground_level = 500
+        self.ground_level = 480
 
         self.speed = 4
 
@@ -91,7 +91,7 @@ class Slime:
         self.speed = 2
         self.direction = 1
 
-        self.left_boundary = 500
+        self.left_boundary = 200
         self.right_boundary = 750
 
     def animate(self):
@@ -136,7 +136,7 @@ class Bat:
         self.direction = 1
 
         self.top = 150
-        self.bottom = 350
+        self.bottom = 450
 
     def animate(self):
         
